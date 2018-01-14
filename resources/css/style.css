@@ -23,14 +23,26 @@
 }
 
 /* Universal Styles */
+
 html {
   font-size: 14px;
   background-color: rgb(255, 242, 242);
+}
+
+body {
   font-family: 'Work Sans', sans-serif;
+  width: auto;
+}
+
+div {
+  background-color: rgb(255, 242, 242);
+  border: .5px solid black;
 }
 
 .container {
   margin-top: 5.25rem;
+  font-family: 'Work Sans', sans-serif;
+  width: 100%;
 }
 
 /* Rules Overrides */
@@ -67,4 +79,8 @@ html {
   font-weight: 900;
   font-size: 7rem;
   color: rgba(255, 255, 255, 1);
+}
+
+.card:hover {
+  cursor: pointer;
 }
